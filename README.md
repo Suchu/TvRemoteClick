@@ -38,10 +38,11 @@
     - lets search the given word, "code" from the stored string TvKeyboard with the help of indexOf and 
       assign the index of that character in the remoteCharIndex.
     - Now we can get our first number of clicks by indexing position and remoteCharIndex
-      Math.Abs(position % 8 - remoteCharIndex % 8) + Math.Abs(position / 8 - remoteCharIndex / 8) + ok //here ok = 1 and max character index is 8 of keyboard 
+      Math.Abs(position % 8 - remoteCharIndex % 8) + Math.Abs(position / 8 - remoteCharIndex / 8) + ok //here ok = 1 and 
+      max character index is 8 of keyboard 
     - In this way we get our first number of clicks from the position 0 and character index 2(remoteCharIndex) which is "c".
     - Now the postion of the cursor is current character index which is 2.
-    - In this way if we make foreach loop for each character of given word and sum, we can find the total number of clicks of that word.
+    - In this way if we make foreach loop for each character of given word and sum, we can find the total number of clicks.
     
     Output calculation: 
     note: 
